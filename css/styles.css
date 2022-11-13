@@ -82,7 +82,7 @@ address
 {
     display: flex;
 }
-.header
+.header 
 {
     padding-top: 24px;
     padding-bottom: 25px;
@@ -130,6 +130,7 @@ address
     letter-spacing: 0.02em;
     color:var(--color-black)
 }
+
 .header-nav-link:hover,
 .header-nav-link:focus
 {
@@ -154,6 +155,10 @@ address
 .header-contacts-core:focus
 {
     color:var(--color-blue)
+}
+.tel-item
+{
+    
 }
 .tel-header
 {

@@ -81,6 +81,7 @@ address
 .header-conteiner
 {
     display: flex;
+    align-items: center;
 }
 .header 
 {
@@ -136,33 +137,60 @@ address
 {
    color:var(--color-blue)
 }
- 
+.block-header
+{
+    display: flex;
+    gap: 10px;
+}
 .header-contacts
 {
     margin-left: auto;
     display: flex;
     align-items: center;
+    gap: 30px;
 }
-.header-contacts-core 
+
+.header-contacts-core
 {
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color:var(--color-gray)
+
 }
 .header-contacts-core:hover,
 .header-contacts-core:focus
 {
     color:var(--color-blue)
 }
-.tel-item
+
+.header-contacts-link 
 {
-    
+    display: flex;
 }
-.tel-header
+.header-contacts-link:hover
 {
-    margin-left: 50px;
+    fill: #2196F3;
+}
+.write-item
+{
+    fill: #757575;
+}
+.write-item:hover
+{
+    fill: #2196F3;
+}
+.write
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.write:hover
+{
+    fill: #2196F3;
 }
 
 
@@ -170,14 +198,18 @@ address
 
 .hero 
 {    
+    width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)),
     url(../images/Imghero1.jpg);
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background: var(--color-backgroung)
-    
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 
@@ -597,6 +629,13 @@ address
 .item-portfolio
 {
     flex-basis: calc((100% - 60px) / 3);
+}
+.item-portfolio:hover
+{
+    box-shadow: 0px 1px 1px
+    rgba(0, 0, 0, 0.12),
+    0px 4px 4px 
+    rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .img-block
 {

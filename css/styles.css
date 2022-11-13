@@ -361,11 +361,12 @@ address
     align-items: center;
     justify-content: center;
 }
-.team-soc-link:hover
+.team-soc-link:hover,.team-soc-link:focus
 {
     background-color: #2196F3;
 }
-.team-soc-link:hover .team-soc-icons
+.team-soc-link:hover .team-soc-icons, 
+.team-soc-link:focus .team-soc-icons
 {
     fill: #ffff;
 }
@@ -374,28 +375,48 @@ address
     fill: #AFB1B8;
 }
 /*-----------------CLIENT------------*/
+.section-client
+{
+    margin-bottom: 0;
+}
 .client
 {
-    
+    margin-bottom: 50px;
 }
-
 .client-list 
 {
     display: flex;
     justify-content: center;
+    gap: 30px;
 }
 .client-soc-group 
 {
-    width: 106px;
-    height: 60px;
+    width: 170px;
+    height: 92px;
 }
 .client-soc-link 
 {
     width: 100%;
     height: 100%;
+    padding: 16px 32px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.client-soc-link:hover, .client-soc-link:focus
+{
+    border-color:  #2196F3;
+}
+.client-soc-link:hover .client-soc-icons,
+.client-soc-link:focus .client-soc-icons
+{
+    fill: #2196F3;
+}
+.team-soc-item
+{
+    flex-basis: calc((100% - 30px) / 5);
 }
 .client-soc-icons 
 {

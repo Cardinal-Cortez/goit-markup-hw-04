@@ -137,11 +137,7 @@ address
 {
    color:var(--color-blue)
 }
-.block-header
-{
-    display: flex;
-    gap: 10px;
-}
+
 .header-contacts
 {
     margin-left: auto;
@@ -158,29 +154,15 @@ address
     line-height: 16px;
     letter-spacing: 0.02em;
     color:var(--color-gray)
-
-}
-.header-contacts-core:hover,
-.header-contacts-core:focus
-{
-    color:var(--color-blue)
 }
 
-.header-contacts-link 
-{
-    display: flex;
-}
-.header-contacts-link:hover
+.header-contacts-core:hover
 {
     fill: #2196F3;
 }
 .write-item
 {
     fill: #757575;
-}
-.write-item:hover
-{
-    fill: #2196F3;
 }
 .write
 {
@@ -190,7 +172,7 @@ address
 }
 .write:hover
 {
-    fill: #2196F3;
+    fill: currentColor;
 }
 
 

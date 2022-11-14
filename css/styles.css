@@ -158,11 +158,11 @@ address
 
 .header-contacts-core:hover
 {
-    fill: #2196F3;
+    color: #2196F3;
 }
 .write-item
 {
-    fill: #757575;
+    fill:currentColor
 }
 .write
 {

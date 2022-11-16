@@ -156,7 +156,7 @@ address
     color:var(--color-gray)
 }
 
-.header-contacts-core:hover
+.header-contacts-core:hover,
 .header-contacts-core:focus
 {
     color: #2196F3;
@@ -604,12 +604,16 @@ address
     gap: 30px;
     justify-content: center;
 }
+.conteiner-portfolio-li
+{
+    flex-basis: calc((100% - 60px) / 3);
+}
 .item-portfolio
 {
     text-decoration: none;
-    flex-basis: calc((100% - 60px) / 3);
 }
-.item-portfolio:hover
+.item-portfolio:hover,
+.item-portfolio:focus
 {
     display: block;
     box-shadow: 0px 1px 1px
